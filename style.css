@@ -1,0 +1,28 @@
+      body{
+        background-color: lightgray;
+     }
+     p{
+        margin: 32px 0px 16px 0px;
+        font-size: 12px;
+     }
+     a{
+            border-bottom: solid 1px dodgerblue;
+            font-size: 12px;
+    }
+     .box-part{
+        background-color: white;
+        margin: 20px 0px;
+        text-align: center;
+        padding: 40px 20px;
+        width: 265px;
+        height: auto;
+     }
+     .fa{
+        color: dodgerblue;
+     }
+     .box{
+        padding:15px 250px;
+      }
+     .container{
+        margin-top: 40px;
+     }
