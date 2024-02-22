@@ -1,28 +1,62 @@
-      body{
-        background-color: lightgray;
-     }
-     p{
-        margin: 32px 0px 16px 0px;
-        font-size: 12px;
-     }
-     a{
-            border-bottom: solid 1px dodgerblue;
-            font-size: 12px;
-    }
-     .box-part{
-        background-color: white;
-        margin: 20px 0px;
-        text-align: center;
-        padding: 40px 20px;
-        width: 265px;
-        height: auto;
-     }
-     .fa{
-        color: dodgerblue;
-     }
-     .box{
-        padding:15px 250px;
-      }
-     .container{
-        margin-top: 40px;
-     }
+.parent{
+    background-color: #565656;
+    height:270px;
+    padding: 32px 0px;
+}
+.namestrap{
+    border-radius: 5px;
+    background-color: #FABE28;
+    font-size: 32px;
+    font-weight:500;
+    padding: 10px 32px;
+}
+img.profile {
+    border-radius: 50%;
+    border:#FABE28 dotted 4px;
+    text-align: center;
+    width: 11%;
+}
+.icon-container {
+    display: inline-block; /* Ensure the container wraps around the icon */
+    border-radius: 100%; /* Make the container circular */
+    border: #FABE28 dotted 4px; /* Apply the border */
+    text-align: center; /* Center the icon within the container */
+}
+div.profile{
+    text-align: center;
+}
+div.overlap{
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top:140px;
+    position: relative;
+    height: 30px;
+}
+div.whitebg{
+    background-color:white;
+    position: relative;
+    top:170px;
+}
+div.contact{
+    padding-top:40px;
+    text-align: center;
+    border-bottom: solid 1px black;
+}
+div.details{
+    columns: 2;
+    column-rule: 2px solid grey;
+    margin-top:30px;
+    padding: 30px 20px;
+}
+table.table{
+    padding: 20px;
+}
+meter::-webkit-meter-optimum-value {
+  background:#FABE28;
+}
+meter::-moz-meter-bar { /* Firefox Pseudo Class */
+  background:#FABE28;
+
+}
